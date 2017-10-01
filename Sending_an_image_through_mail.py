@@ -7,7 +7,7 @@ from email import encoders
 import Downloading_image_from_web
 
 
-def automateThought():
+def automateThought(urlOfQuoteOftheDay):
     print("Intializing thought of the day")
 
     #All the Details at first fromAddress(sender email id), to Address(reciever's email id) and subject of the mail
@@ -28,7 +28,7 @@ def automateThought():
 
     #Downloading image from the web using our own custom module "Downloading_image_from_web"
     print("Trying To Fetch Image from the web!!")
-    Downloading_image_from_web.downloadImageFromWeb('https://www.brainyquote.com/photos_tr/en/a/albertcamus/107639/albertcamus1.jpg')
+    Downloading_image_from_web.downloadImageFromWeb(urlOfQuoteOftheDay)
     print("Image Fecthed Successfully")
 
     #Opening the thought of the day image here

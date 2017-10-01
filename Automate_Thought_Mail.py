@@ -1,9 +1,10 @@
 import threading
 import Sending_an_image_through_mail
-def startAutomatingMail():
-    print("Starting..... Automating thought of the Mail")
-    Sending_an_image_through_mail.automateThought()
-    threading.Timer(60.0*60.0,startAutomatingMail).start()
+
+
+def startAutomatingMail(urlOfQuoteOfTheDay):
+    print("Starting..... Automating thought of the day Mail")
+    Sending_an_image_through_mail.automateThought(urlOfQuoteOfTheDay)
+    threading.Timer(20*60.0,startAutomatingMail).start()
     
 
-startAutomatingMail()
