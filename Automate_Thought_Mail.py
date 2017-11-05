@@ -7,5 +7,8 @@ def startAutomatingMail(urlOfQuoteOfTheDay):
     Sending_an_image_through_mail.automateThought(urlOfQuoteOfTheDay)
     threading.Timer(20*60.0,startAutomatingMail).start()
 
+
+
+
     
 
