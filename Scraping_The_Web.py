@@ -12,8 +12,8 @@ class AppURLopener(urllib.request.FancyURLopener):
 def scrapeTheWeb() :
     print("Web Scrapper : Intializing....")
     opener = AppURLopener()
-    response = opener.open('https://www.brainyquote.com/quotes_of_the_day.html')
-    print("Web Scrapper : Going to www.brainyquote.com to fetch qoute of the day")    
+    response = opener.open('https://www.brainyquote.com/topics/inspirational')
+    print("Web Scrapper : Going to www.brainyquote.com to fetch a random qoute of the day")
     #Reading the object of response and printing the html of above url of web page
     print("Web Scrapper : Reading the response object")
     page_html=response.read()
