@@ -13,7 +13,7 @@ def automateThought(urlOfQuoteOftheDay):
     #All the Details at first fromAddress(sender email id), to Address(reciever's email id) and subject of the mail
     fromAddress="rohitwalecha8@gmail.com"
     print("Preparing Addresses to send!!")
-    dLs=["abhisek.nag@sdgc.com","Vishal.Singh@sdgc.com","Deepika.Khanna@sdgc.com","Mohammad.Azaz@sdgc.com","mohammed.ajaz@sdgc.com","rohit@sdgc.com","rohitwalecha8@gmail.com","amansinghvns26@gmail.com","deepikasawhney19@gmail.com","vivekkumarwalecha@gmail.com","walechai019@gmail.com","lalitsinghjmi@gmail.com"]
+    dLs=["rohitwalecha8@gmail.com"]
     #toAddress="rohitwalecha8@gmail.com"
     subject="It's test mail please ignore this"
 
